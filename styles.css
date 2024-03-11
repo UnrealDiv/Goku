@@ -52,7 +52,11 @@ body{
     cursor: pointer; 
     transition: background-color 0.3s, color 0.3s; 
 }
-
+@media only screen and (min-width: 768px) {
+    .controls {
+        display: none;
+    }
+}
 
 .control-button:hover {
     background-color: #0056b3; 
