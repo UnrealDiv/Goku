@@ -72,13 +72,13 @@ body{
       max-height: 100vh; 
       display: block; 
       margin: auto;
-      transform: rotate(-90deg); 
-      transform-origin: center; 
+      /* transform: rotate(-90deg); 
+      transform-origin: center;  */
     } .controls {
         justify-content: center;
-        align-items: center;
+        align-items:end;
         height: 100vw;
-        transform: rotate(90deg) translateY(-100%); 
+        /* transform: rotate(90deg) translateY(-100%);  */
         transform-origin: top left; 
         width: 100vh; 
     }
@@ -88,7 +88,7 @@ body{
     }
 
     .control-button {
-        font-size: 4rem;
+        font-size: 2rem;
         padding: 8px 16px; 
     }
   }
